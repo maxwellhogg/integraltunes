@@ -1,0 +1,125 @@
+:root {
+    --color-one: #242423;
+    --color-two: #333533;
+    --color-three: #F0A202;
+    --color-four: #CFDBD5;
+    --color-five: #E8EDDF;
+  }
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  html,body {
+      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Zilla Slab", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.6rem;
+        letter-spacing: 0.16rem
+  }
+  
+  .pre-nav {
+      height: 2.6rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: var(--color-two);
+      padding: 0 8rem;
+  }
+  
+  .pre-nav a {
+      color: var(--color-five);
+  }
+  
+  .pre-nav-social {
+      display: flex;
+      gap: 0.8rem;
+  }
+  
+  .pre-nav-social_icon {
+      font-size: 1.4rem;
+      color: var(--color-five);
+  }
+  
+  fa {
+      color: var(--color-one);
+  }
+  
+  .nav {
+      height: 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--color-one);
+      padding: 0 8rem;
+  }
+  
+  .nav-items {
+      display: flex;
+      gap: 1rem;
+  }
+  
+  .nav-items a {
+      color: var(--color-five);
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .logo {
+      font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
+      display: flex;
+      flex-direction: row;
+      padding: 0.2rem;
+  }
+  
+  .logo a {
+      color: var(--color-five);
+      letter-spacing: 0.4rem;
+  }
+  
+  .footer {
+      background: var(--color-one);
+  }
+  
+  .footer-container {
+      padding: 3.8rem 8rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .footer-social {
+      display: flex;
+      gap: 0.8rem;
+  }
+  
+  .footer-social_icon {
+      font-size: 1.4rem;
+      color: var(--color-five);
+  }
+  
+  .footer-menu-items {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .footer-menu-item {
+      color: var(--color-five);
+  }
+  
+  .copyright {
+      color: var(--color-five);
+      padding: 2rem 0;
+      margin-left: 8rem;
+      margin-right: 8rem;
+      text-align: center;
+      border-top: 2px solid var(--color-five);
+  }
